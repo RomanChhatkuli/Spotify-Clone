@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="left.css">
+    <link rel="stylesheet" href="right.css">
+    <link rel="stylesheet" href="/utility.css">
+    <link rel="stylesheet" href="mobile.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="home">
+                <ul>
+                    <li><img class="invert" src="/svgs\logo.svg" alt="Logo"></li>
+                    <li><img class="invert" src="/svgs\home.svg" alt="Home">Home</li>
+                    <li><img class="invert" src="/svgs\search.svg" alt="Search">Search</li>
+                </ul>
+            </div>
+
+            <div class="library">
+                <div class="heading">
+                    <img class="invert" src="/svgs/library.svg" alt="Collapse"> Your Library
+                    <img id="plus" class="invert" src="/svgs/plus.svg" alt="plus">
+                </div>
+                <div class="middle">
+                    <div class="upper">
+                        <div>Create your first playlist</div>
+                        <div style="font-size: 14px; font-weight: 400;">It's easy, we'll help you</div>
+                        <button id="cp">Create playlist</button>
+                    </div>
+                    <div class="lower">
+                        <div>Let's find some podcasts to follow</div>
+                        <div style="font-size: 14px; font-weight: 400;">We'll keep you updated on new episodes</div>
+                        <button id="bp">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="right">
+            <div class="header">
+                <div class="content">
+                    <div class="image">
+                        <img id="leftarrow" src="/svgs/leftarrow.svg" alt="leftarrow">
+                        <img id="rightarrow" src="/svgs/rightarrow.svg" alt="rightarrow">
+                    </div>
+                    <div class="login">
+                        <a id="signup" href="">Sign Up</a>
+                        <a id="login" href="">Log in</a>
+                    </div>
+                </div>
+
+                <div class="sub">
+                    <div class="photo">
+                        <img src="/artist/Arjit1.jpg"
+                            alt="Arjit Singh">
+                    </div>
+
+                    <div class="text">
+                        <p style="font-size: 14px; font-weight: 400;">Playlist</p>
+                        <h1>Arijit Singh Radio</h1>
+                        <p style="font-size: 14px; font-weight: 400; color: hsla(0,0%,100%,.7);">With Neha Kakkar,
+                            Pritam, KK and more</p>
+                        <div class="logo">
+                            <img src="/Icons/spotify_logo.png" alt="spotify_logo">
+                            <p>Spotify . 223,200 likes .10 songs . 1 hr 10 min</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="body">
+                <div class="Number">
+                    <div>#</div>
+                </div>
+                <div class="Balbum">
+                    <div>Album</div>
+                </div>
+                <div class="Bdisc">
+                    <div>Artist</div>
+                </div>
+                <div class="Btime">
+                    <div>Duration</div>
+                </div>
+                <div class="Bsource">
+                    
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+        <div class="playbar">
+            <img id="Sphoto" src="/Songs/img1.webp" alt="song1">
+
+            <div class="about">
+                <p id="Sname" ">Dunki- O Maahi</p>
+                <p id="Sdesc" style=" color: #B3B3B3;">Shah Rukh Khan _ Taapsee Pannu
+                    _ Pritam _ Arijt</p>
+            </div>
+            <img id="plus" src="/Icons/plus.png" alt="plus">
+
+            <div class="musicbar">
+                <div class="image">
+                    <img id="shuffle" class="custom-color" src="/Icons/shuffle.png" alt="shuffle">
+                    <img id="prev" class="custom-color" src="/Icons/prev.png" alt="prev">
+                    <img id="play" src="/Icons/pause.png" alt="play">
+                    <img id="next" class="custom-color" src="/Icons/next.png" alt="next">
+                    <img id="loop" class="custom-color" src="/Icons/loop.png" alt="loop">
+                </div>
+                <div class="seekbar">
+                    <div id="count">0:00</div>
+                    <div class="circle"></div>
+                    <div id="time"></div> 
+                </div>
+                <div class="rightimage">
+                    <img src="/Icons/plays.png" alt="plays">
+                    <img src="/Icons/mic.png" alt="mic">
+                    <img src="/Icons/queue.png" alt="queue">
+                    <img src="/Icons/speaker.png" alt="speaker">
+                    <img src="/Icons/volume.png" alt="volume">  
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="script1.js"></script>
+</body>
+
+</html>

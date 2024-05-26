@@ -1,0 +1,226 @@
+.right {
+    color: aliceblue;
+    background-color: #121212;
+    width: 77.8vw;
+    height: 180vh;
+    margin-top: 10px;
+    margin-left: 350px;
+    margin-bottom: 85px;
+    border-radius: 15px;
+}
+a{
+    text-decoration: none;
+}
+.right .header {
+    height: 50px;
+    background-color: #131313;
+}
+
+.right .content {
+    margin: 15px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right .header .content img {
+    margin-left: 8px;
+    width: 20px;
+    padding: 7px;
+    cursor: pointer;
+    border-radius: 60px;
+    background-color: black;
+    border: 0.1px solid rgb(250, 247, 247);
+    border: none;
+}
+
+.right .header .content .login a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#signup {
+    color: rgb(167, 167, 167);
+    position: relative;
+    left: -35px;
+}
+
+#login {
+    padding: 15px 35px;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+}
+
+.mid {
+    background-color: #1f1f1f;
+    height: 100%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.mid .playlist .topic {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.mid .playlist {
+    padding: 15px;
+}
+
+.mid .topic p:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.mid .topic h1:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.cards img {
+    height: 200px;
+    width: 190px;
+}
+
+.box {
+    display: flex;
+}
+
+.cards {
+    margin-top: 10px;
+    height: 265px;
+    width: 195px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    position: relative;
+}
+.cards p{
+    color: #FFFFFF;
+}
+#artist {
+    margin-top: 10px;
+}
+
+.playbtn img {
+    width: 25px;
+    height: 25px;
+    filter: invert(1);
+}
+
+.playbtn {
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    padding: 28px;
+    width: 40px;
+    height: 35px;
+    background-color: rgb(94, 234, 94);
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    opacity: 0;
+}
+.playbtn:hover{
+    padding: 29px;
+}
+.cards:hover .playbtn{
+    opacity: 1;
+}
+
+.cards:hover {
+    background-color: #4241411a;
+}
+
+.p2 {
+    margin-left: -10px;
+}
+
+.playlist .box .cards p:nth-child(4) {
+    margin-top: 10px;
+    color: #B3B3B3;
+    overflow: hidden;
+    display: -webkit-box;
+    /* For compatibility with older browsers */
+    -webkit-line-clamp: 2;
+    /* Limit the number of lines */
+    -webkit-box-orient: vertical;
+    /* Display the lines vertically */
+    white-space: normal;
+    /* Allow text to wrap within the specified number of lines */
+    text-overflow: ellipsis;
+    /* Display an ellipsis (...) to indicate overflow */
+}
+
+.footer1 {
+    display: flex;
+    margin: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 100px;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.rows {
+    display: flex;
+    flex-direction: column;
+}
+
+.rows a {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(167, 167, 167);
+    text-decoration: none;
+    padding: 7px;
+}
+
+.grid .rows .head {
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.rows a:not(:first-child):hover {
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+.icons img {
+    width: 20px;
+    background-color: #292929;
+    padding: 9px;
+    border-radius: 50%;
+}
+
+.icons {
+    width: 100px;
+    display: flex;
+    gap: 18px;
+    height: 40px;
+}
+
+hr {
+    filter: brightness(0.38);
+    height: 1px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.last {
+    margin: 30px;
+}

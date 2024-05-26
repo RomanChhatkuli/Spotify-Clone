@@ -1,0 +1,13 @@
+.invert{
+    filter: invert(1);
+}
+.image1{
+    border-radius: 50%;
+        filter: grayscale(0.5);
+        filter:brightness(0.8);
+}
+.custom-color {
+    filter: hue-rotate(0deg) saturate(10000%) brightness(100%) grayscale(1) contrast(100%);
+    filter: invert(1) sepia(0) saturate(1) hue-rotate(144deg);
+    filter: hue-rotate(180deg) brightness(0.5) contrast(2);
+}

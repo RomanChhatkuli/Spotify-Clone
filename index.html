@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="left.css">
+    <link rel="stylesheet" href="right.css">
+    <link rel="stylesheet" href="utility.css">
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="home">
+                <ul>
+                    <li><img class="invert" src="svgs\logo.svg" alt="Logo"></li>
+                    <li><img class="invert" src="svgs\home.svg" alt="Home">Home</li>
+                    <li><img class="invert" src="svgs\search.svg" alt="Search">Search</li>
+                </ul>
+            </div>
+
+            <div class="library">
+                <div class="heading">
+                    <img class="invert" src="svgs/library.svg" alt="Collapse"> Your Library
+                    <img id="plus" class="invert" src="svgs/plus.svg" alt="plus">
+                </div>
+                <div class="middle">
+                    <div class="upper">
+                        <div>Create your first playlist</div>
+                        <div style="font-size: 14px; font-weight: 400;">It's easy, we'll help you</div>
+                        <button id="cp">Create playlist</button>
+                    </div>
+                    <div class="lower">
+                        <div>Let's find some podcasts to follow</div>
+                        <div style="font-size: 14px; font-weight: 400;">We'll keep you updated on new episodes</div>
+                        <button id="bp">Browse podcasts</button>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="row">
+                        <a href="">Legal</a>
+                        <a href="">Cookies</a>
+                        <a href="">Cookies</a>
+                    </div>
+                    <div class="row">
+                        <a href="">Safety & Privacy Center</a>
+                        <a href="">About Ads</a>
+                    </div>
+                    <div class="row">
+                        <a href="">Privacy Policy</a>
+                        <a href="">Accessibility</a>
+                    </div>
+                </div>
+                <div class="language">
+                    <button>
+                        <img class="invert" src="svgs/globe.svg" alt="globe">English
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="right">
+            <div class="header">
+                <div class="content">
+
+                    <div class="image">
+                        <img id="leftarrow" src="svgs/leftarrow.svg" alt="leftarrow">
+                        <img id="rightarrow" src="svgs/rightarrow.svg" alt="rightarrow">
+                    </div>
+                    <div class="login">
+                        <a id="signup" href="">Sign Up</a>
+                        <a id="login" href="">Log in</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="mid">
+                <div class="playlist p1">
+                    <div class="topic">
+                        <h1 style="font-size: 24px; font-weight: 700;">Popular artists</h1>
+                        <p style="color: #B3B3B3; font-size: 16px; font-weight: 400;">Show all</p>
+                    </div>
+                    <div class="box">
+                        <a href="/arjit/index.html">
+                            <div class="cards" id="arjit">
+                                <button class="playbtn">
+                                    <img src="Icons/play.png" alt="play">
+                                </button>
+                                <img class="image1" src="/artist/Arjit.jpeg" alt="Arjit">
+                                <p>Arjit Singh</p>
+                                <p id="artist" style="color: #B3B3B3;">Artist</p>
+                            </div>
+                        </a>
+                        <div class="cards">
+                            <button class="playbtn">
+                                <img src="Icons/play.png" alt="play">
+                            </button>
+                            <img class="image1" src="/artist/sujit.jpg" alt="Sujit">
+                            <p>Sujit Barnawal</p>
+                            <p id="artist" style="color: #B3B3B3;">Artist</p>
+                        </div>
+                        <div class="cards">
+                            <button class="playbtn">
+                                <img src="Icons/play.png" alt="play">
+                            </button>
+                            <img class="image1" src="/artist/Binaya.jpg" alt="Binaya">
+                            <p>Binaya Khatiwada</p>
+                            <p id="artist" style="color: #B3B3B3;">Artist</p>
+                        </div>
+                        <div class="cards">
+                            <button class="playbtn">
+                                <img src="Icons/play.png" alt="play">
+                            </button>
+                            <img class="image1" src="/artist/Rohan.jpg" alt="Rohan">
+                            <p>Rohan Karki</p>
+                            <p id="artist" style="color: #B3B3B3;">Artist</p>
+                        </div>
+                        <div class="cards">
+                            <button class="playbtn">
+                                <img src="Icons/play.png" alt="play">
+                            </button>
+                            <img class="image1" src="/artist/Kismat.jpg" alt="Kismat">
+                            <p>Kismat Bhandari</p>
+                            <p id="artist" style="color: #B3B3B3;">Artist</p>
+                        </div>
+                        <div class="cards">
+                            <button class="playbtn">
+                                <img src="Icons/play.png" alt="play">
+                            </button>
+                            <img class="image1" src="/artist/Philip.jpg" alt="Philip">
+                            <p>Philip Chhatkuli</p>
+                            <p id="artist" style="color: #B3B3B3;">Artist</p>
+                        </div>
+                    </div>
+                    <div class="playlist p2">
+                        <div class="topic">
+                            <h1 style="font-size: 24px; font-weight: 700;">Featured charts</h1>
+                            <p style="color: #B3B3B3; font-size: 16px; font-weight: 400;">Show all</p>
+                        </div>
+                        <div class="box">
+                            <div class="cards">
+                                <button class="playbtn">
+                                    <img src="Icons/play.png" alt="play">
+                                </button>
+                                <img src="/Featured Charts/img8.jpg" alt="">
+                                <p>Top 50 - Global</p>
+                                <p>Your weekly update of the most played tracks right now - Global.</p>
+                            </div>
+                            <div class="cards">
+                                <button class="playbtn">
+                                    <img src="Icons/play.png" alt="play">
+                                </button>
+                                <img src="/Featured Charts/img9.jpg" alt="">
+                                <p>Top 50 - India</p>
+                                <p>Your weekly update of the most played tracks right now - India.</p>
+                            </div>
+                            <div class="cards">
+                                <button class="playbtn">
+                                    <img src="Icons/play.png" alt="play">
+                                </button>
+                                <img src="/Featured Charts/img10.jpg" alt="">
+                                <p>Trending India</p>
+                                <p>Your weekly update of the most played tracks right now - India.</p>
+                            </div>
+                            <div class="cards">
+                                <button class="playbtn">
+                                    <img src="Icons/play.png" alt="play">
+                                </button>
+                                <img src="/Featured Charts/img16.jpg" alt="">
+                                <p>Trending Global</p>
+                                <p>Your weekly update of the most played tracks right now - Global.</p>
+                            </div>
+                            <div class="cards">
+                                <button class="playbtn">
+                                    <img src="Icons/play.png" alt="play">
+                                </button>
+                                <img src="/Featured Charts/img11.jpg" alt="">
+                                <p>Mega Hits</p>
+                                <p>Your weekly update of the most played tracks right now - Global.</p>
+                            </div>
+                            <div class="cards">
+                                <button class="playbtn">
+                                    <img src="Icons/play.png" alt="play">
+                                </button>
+                                <img src="/Featured Charts/img15.jpg" alt="">
+                                <p>Happy Favourite</p>
+                                <p>Your weekly update of the most played tracks right now - Global.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="playlist p3">
+                        <div class="topic">
+                            <h1 style="font-size: 24px; font-weight: 700;">Spotify Playlists</h1>
+                            <p style="color: #B3B3B3; font-size: 16px; font-weight: 400;">Show all</p>
+                        </div>
+                        <div class="box">
+                            <div class="cards">
+                                <button class="playbtn">
+                                    <img src="Icons/play.png" alt="play">
+                                </button>
+                                <img src="/Other images/img1.jpg" alt="">
+                                <p>Top 50 - Global</p>
+                                <p>Your weekly update of the most played tracks right now - Global.</p>
+                            </div>
+                            <div class="cards">
+                                <button class="playbtn">
+                                    <img src="Icons/play.png" alt="play">
+                                </button>
+                                <img src="/Other images/img2.jpg" alt="">
+                                <p>Top 50 - India</p>
+                                <p>Your weekly update of the most played tracks right now - India.</p>
+                            </div>
+                            <div class="cards">
+                                <button class="playbtn">
+                                    <img src="Icons/play.png" alt="play">
+                                </button>
+                                <img src="/Other images/img7.jpg" alt="">
+                                <p>Trending India</p>
+                                <p>Your weekly update of the most played tracks right now - India.</p>
+                            </div>
+                            <div class="cards">
+                                <button class="playbtn">
+                                    <img src="Icons/play.png" alt="play">
+                                </button>
+                                <img src="/Other images/img14.jpg" alt="">
+                                <p>Trending Global</p>
+                                <p>Your weekly update of the most played tracks right now - Global.</p>
+                            </div>
+                            <div class="cards">
+                                <button class="playbtn">
+                                    <img src="Icons/play.png" alt="play">
+                                </button>
+                                <img src="/Other images/img5.jpg" alt="">
+                                <p>Mega Hits</p>
+                                <p>Your weekly update of the most played tracks right now - Global.</p>
+                            </div>
+                            <div class="cards">
+                                <button class="playbtn">
+                                    <img src="Icons/play.png" alt="play">
+                                </button>
+                                <img src="/Other images/img6.jpg" alt="">
+                                <p>Happy Favourite</p>
+                                <p>Your weekly update of the most played tracks right now - Global.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="footer1">
+                    <div class="grid">
+
+                        <div class="rows">
+                            <a class="head" href="">Company</a>
+                            <a href="">About</a>
+                            <a href="">Jobs</a>
+                            <a href="">For the Record</a>
+                        </div>
+                        <div class="rows">
+                            <a class="head" href="">Community</a>
+                            <a href="">For Artists</a>
+                            <a href="">Developers</a>
+                            <a href="">Advertising</a>
+                            <a href="">Inverstors</a>
+                            <a href="">Vendors</a>
+                        </div>
+                        <div class="rows">
+                            <a class="head" href="">Useful links</a>
+                            <a href="">Support</a>
+                            <a href="">Free Mobile App</a>
+                        </div>
+                        <div class="rows">
+                            <a class="head" href="">Spotify Plans</a>
+                            <a href="">Premium Individual</a>
+                            <a href="">Premium Duo</a>
+                            <a href="">Premium Family</a>
+                            <a href="">Premium Student</a>
+                            <a href="">Spotify Free</a>
+                        </div>
+                        <div class="icons">
+                            <img src="/svgs/instagram.svg" alt="instagram">
+                            <img src="/svgs/twiter.svg" alt="twiter">
+                            <img src="/svgs/facebook.svg" alt="facebook">
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="last">
+                    <p>© 2024 Spotify AB</p>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
